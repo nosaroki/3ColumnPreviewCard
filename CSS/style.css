@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+body{
+max-width: 1440px;
+margin: auto;
+}
+
+main{
+color: hsla(0, 0%, 100%, 0.75);
+margin: 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#all{
+    display: flex;
+    border-radius: 5px;
+    width: 66%
+}
+
+#sedans{
+    padding: 3em;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+#suvs{
+    padding: 3em;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    padding: 3em;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+img{
+    size: 24px;
+}
+
+h1{
+    font-family: "Big Shoulders Display";
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    padding-bottom: 5em
+}
+
+.learnMore_sedans{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-block: hsl(0, 0%, 95%);
+    border: solid;
+    padding: 1em 2em;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca";
+}
+
+.learnMore_suvs{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-block: hsl(0, 0%, 95%);
+    border: solid;
+    padding: 1em 2em;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca";
+}
+
+.learnMore_luxury{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-block: hsl(0, 0%, 95%);
+    border: solid;
+    padding: 1em 2em;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    font-family: "Lexend Deca";
+}
