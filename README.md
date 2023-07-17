@@ -34,8 +34,4 @@ Users should be able to:
 
 - Frontend Mentor - @wea2ne
 - LinkedIn - (https://www.linkedin.com/in/nn%C3%A9na/)
-<<<<<<< HEAD
 - Paypal - [@NOsarokio] (https://www.paypal.com/paypalme/NOsarokio)
-=======
-- Paypal - [@NOsarokio] (https://www.paypal.com/paypalme/NOsarokio)
->>>>>>> 2fe508af59e21fc8e8c11487786b74c1eb3a9165
