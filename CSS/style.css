@@ -62,7 +62,6 @@ p{
 
 .learnMore_sedans{
     text-decoration: none;
-    color: hsla(0, 0%, 100%, 0.75);
     border-block: hsl(0, 0%, 95%);
     border: solid;
     padding: 1em 2em;
@@ -72,9 +71,13 @@ p{
     font-family: "Lexend Deca";
 }
 
+.learnMore_sedans:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
 .learnMore_suvs{
     text-decoration: none;
-    color: hsla(0, 0%, 100%, 0.75);
     border-block: hsl(0, 0%, 95%);
     border: solid;
     padding: 1em 2em;
@@ -82,6 +85,11 @@ p{
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
     font-family: "Lexend Deca";
+}
+
+.learnMore_suvs:hover{
+    background-color: hsl(184, 100%, 22%); 
+    color: hsl(0, 0%, 95%);
 }
 
 .learnMore_luxury{
@@ -95,3 +103,46 @@ p{
     color:hsl(179, 100%, 13%);
     font-family: "Lexend Deca";
 }
+
+.learnMore_luxury:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Lexend Deca";
+    color:hsl(179, 100%, 13%);
+    margin: 1em;
+  }
+
+  .attribution a {
+   color:hsl(179, 100%, 13%);
+   color: hsl(31, 77%, 52%);
+  }
+
+  @media only screen and (max-width: 600px) {
+    #all{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    #sedans, #suvs, #luxury{
+        padding: 2em;
+    }
+
+    #sedans{
+        border-radius: 10px 10px 0 0;
+    }
+
+    #luxury{
+        border-radius: 0 0 10px 10px;
+    }
+
+    .learnMore_sedans, .learnMore_suvs, .learnMore_luxury{
+        padding: 0.5em 1em;
+    }
+  }
